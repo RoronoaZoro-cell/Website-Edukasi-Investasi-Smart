@@ -348,10 +348,9 @@ section[id^="detail-"] iframe {
   text-align: center;
 }
  
-/* .grid-3 = kartu tersusun otomatis 3 kolom di layar besar */
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat((3, 1fr));
   gap: 20px;
   padding: 10px;
 }
