@@ -427,7 +427,7 @@ section[id^="detail-"] iframe {
 }
  
 .button-quiz:hover {
-  background-color: #17924b;
+  background-color: var-(--biru-tua);
 }
  
 /* ==========================================================
