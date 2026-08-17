@@ -13,7 +13,7 @@
   --putih: #ffffffed;
   --biru-terang: #e3f0fc;
   --abu-teks: #475569;
-  --abu-terang: #f8fafc; /* sebelumnya kepake tapi belum pernah didefinisikan */
+  --abu-terang: #f8fafc; 
   --garis: #d0d1d1;
 }
  
@@ -147,8 +147,6 @@ body {
   text-align: center;
 }
  
-/* dulu nama selector-nya salah ketik (.kotak-pengertian p),
-   makanya paragraf di box "Apa itu Investasi" nggak pernah kestyle */
 .kotak-investasi p {
   color: var(--abu-teks);
   margin-bottom: 16px;
@@ -180,8 +178,6 @@ body {
   margin-bottom: 10px;
 }
  
-/* .deskripsi dipakai untuk subjudul section (di bawah judul-section)
-   MAUPUN teks di dalam card-fitur, jadi disatuin biar nggak tabrakan */
 .deskripsi {
   text-align: center;
   color: var(--abu-teks);
@@ -246,11 +242,10 @@ body {
   margin: 12px auto 30px auto;
 }
  
-/* .kotak-pengertian = daftar kartu ringkasan 6 instrumen di bagian atas halaman */
 .kotak-pengertian {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px; /* Jarak antar kartu */
+  gap: 16px; 
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
@@ -289,8 +284,6 @@ body {
   text-decoration: underline;
 }
  
-/* Section detail tiap instrumen (id="detail-saham", dst) diberi
-lebar maksimal + garis pemisah antar section supaya rapi dibaca */
 section[id^="detail-"] {
   max-width: 800px;
   margin: 40px auto;
@@ -343,6 +336,17 @@ section[id^="detail-"] iframe {
 .materi {
   padding: 50px 0;
 }
+
+.judul-header-profil-resiko {
+   color:var(--biru-tua);
+  text-align: center;
+  padding: 10px;
+};
+
+.deskripsi-header-profilresiko {
+  color: var(--abu-teks);
+  text-align: center;
+};
  
 /* .grid-3 = kartu tersusun otomatis 3 kolom di layar besar */
 .grid-3 {
