@@ -341,12 +341,12 @@ section[id^="detail-"] iframe {
    color:var(--biru-tua);
   text-align: center;
   padding: 10px;
-};
+}
 
 .deskripsi-header-profilresiko {
   color: var(--abu-teks);
   text-align: center;
-};
+}
  
 /* .grid-3 = kartu tersusun otomatis 3 kolom di layar besar */
 .grid-3 {
